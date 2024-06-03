@@ -1,0 +1,17 @@
+.p-txt-div {
+  width: 80%;
+  color: gray;
+}
+
+.o-field-main {
+  height: 50%;
+  width: 80%;
+}
+
+.o-field-txt {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
