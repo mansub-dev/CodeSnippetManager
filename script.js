@@ -64,7 +64,7 @@ function rerenderElement(snippets) {
         snippetsContainer.appendChild(snippetItem);
         titleDiv.addEventListener("click", function () {
             localStorage.setItem("previewID", dId);
-            window.location.href = "p_snippet.html";
+            window.location.href = "preview.html";
         });
         deleteBtn.addEventListener("click", function () {
             snippets = snippets.filter((_, index) => index !== Number(dId));
